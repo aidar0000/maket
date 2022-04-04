@@ -206,7 +206,9 @@ body{
 .card2:hover{
     box-shadow: 0 0 10px #353732;
 }
+
 /* stay */
+
 .stay_title{
     font-family: 'Palatino Linotype';
     font-weight: 400;
@@ -239,6 +241,7 @@ body{
     margin-left: 16px;
 }
 .stay_btn{
+    cursor: pointer;
     background: #353732;
     border-radius: 6px;
     font-family: 'Georgia';
@@ -268,4 +271,75 @@ body{
     width: 376px;
     height: 38px;
     border-radius: 8px;
+}
+
+/* news */
+
+.news{
+    background: #FAFAFA;
+}
+.news_wrapper{
+    padding: 100px 0;
+}
+.news_photo{
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.news_photo:hover{
+    box-shadow: 0 0 10px #45525B;
+}
+.news_block{
+    display: flex;
+    margin-bottom: 50px;
+}
+.news_title{
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #45525B;
+}
+.news_title:hover{
+    text-decoration: overline;
+}
+.news_subtitle{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.news_data{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;    
+    margin-top: 5px;
+}
+.news_cont{
+    display: flex;
+    justify-content: center;
+}
+.news_arrow{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575445;
+}
+.news_cont:hover{
+    text-decoration: overline;
+}
+.arrow:hover{
+    
 }
