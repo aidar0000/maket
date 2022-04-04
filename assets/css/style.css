@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Georgia";
-    src: url(../fonts/Georgia_regular.ttf);
+    src: url('../fonts/Georgia_regular.ttf') format("truetype");
     font-weight: 400;
 }
 @font-face {
-    font-family: "Poppins Linotype";
-    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Regular.ttf') format("truetype");
     font-weight: 400;
 }
 @font-face {
-    font-family: "Palatino";
-    src: url(../fonts/Palatino_Linotype.ttf);
+    font-family: "Palatino Linotype";
+    src: url('../fonts/Palatino_Linotype.ttf') format('truetype');
     font-weight: 400;
 }
 html{
@@ -36,3 +36,236 @@ body{
     width: 800px;
 }
 /* header */
+.header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.header_logo{
+    margin: 20px 0;
+}
+.header_wrapper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_title{
+    display: flex;
+    margin: 20px 0;
+}
+.header_text{
+    margin-left: 30px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #353732;
+}
+.header_text:hover{
+    text-decoration: overline;
+}
+
+/* main */
+.main{
+    margin: 150px 0;
+}
+.main_text{
+    margin-top: 20px;
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #353732;
+}
+
+/* info */
+.info_wrapper{
+    padding-top: 100px;
+}
+.info{
+    background:#FAFAFA;
+}
+.info1{
+    border: none;
+    background: white;
+    text-align: left;
+    width: 507px;
+    height: 553px;
+}
+.info1:hover{
+    box-shadow: 0 0 10px #353732;
+}
+.info_text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.info_content{
+    display: flex;
+}
+.info2{
+    margin-left: 20px;
+}
+.info_name{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #353732;
+}
+.info_name2{
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #45525B;
+}
+.info_name3{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #45525B;
+}
+.info_name4{
+    margin-bottom: 20px;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;
+}
+.info_name21{
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.info_photo{
+    margin-top: -33px;
+}
+.info11{
+    margin-bottom: 20px;
+    border: none;
+    background: white;
+    text-align: left;
+    width: 243px;
+    height: 258px;
+}
+.info111{
+    border: none;
+    background: white;
+    text-align: left;
+    width: 243px;
+    height: 279px;
+}
+.info11:hover{
+    box-shadow: 0 0 10px #353732;
+}
+.info111:hover{
+    box-shadow: 0 0 10px #353732;
+}
+
+/* card */
+
+.card{
+    background: #FAFAFA;
+}
+.card_wrapper{
+    padding-top: 16px;
+}
+.card_1part{
+    display: flex;
+}
+.card_2part{
+    padding-bottom: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+.card1{
+    margin-right: 20px;
+    width: 373px;
+    height: 332px;
+    background: white;
+}
+.card1:hover{
+    box-shadow: 0 0 10px #353732;
+}
+.card_text{
+    margin-left: 20px;
+}
+.card2{
+    margin-right: 20px;
+    width: 243px;
+    height: 273px;
+    background: white;
+}
+.card2:hover{
+    box-shadow: 0 0 10px #353732;
+}
+/* stay */
+.stay_title{
+    font-family: 'Palatino Linotype';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 11px;
+    color: #353732;
+}
+.stay_subtitle{
+    Font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353732;    
+}
+.stay_wrapper{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+.stay_name{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #353732;
+}
+.stay_inputs{
+    margin-left: 16px;
+}
+.stay_btn{
+    background: #353732;
+    border-radius: 6px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    width: 82px;
+    height: 38px;
+    border: none;
+}
+.stay_btn:hover{
+    box-shadow: 0 0 5px #353732;
+}
+.input{
+    padding-left: 20px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #353732;
+    margin-bottom: 10px;
+    background: rgba(82, 80, 59, 0.02);
+    border: 1px solid #E5E7EB;
+    width: 376px;
+    height: 38px;
+    border-radius: 8px;
+}
