@@ -343,3 +343,34 @@ body{
 .arrow:hover{
     
 }
+
+/* footer */
+
+.footer_content{
+    margin: 100px 0;
+}
+.footer_text{
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #353732;
+}
+.footer_text2{
+    margin-top: 10px;
+    margin-right: 20px;
+        font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #45525B;
+}
+.footer_text2:hover{
+    text-decoration: overline;
+}
+.footer_a{
+    display: flex;
+}
+.footer_a2{
+    display: flex;
+}
